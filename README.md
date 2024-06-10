@@ -15,12 +15,17 @@
 
 ![xcalc](assets/screenshot.png)
 
-<!-- ### Installation
-#### Requirements
-* Rust (building from source) -->
+### Installation
+<!-- #### Requirements
+* Rust (building from source)
+```
+cargo build
+cargo run
+``` -->
+> Installer is not ready yet.
 
 ### Usage
-<i>vim like commands</i>
+<i>vim like usage</i>
 * `i` - input mode
     * `enter` - calculate
 * `esc` - normal mode
