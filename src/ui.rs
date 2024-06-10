@@ -45,7 +45,7 @@ pub fn draw_ui<B: Backend>(
             .fg(Color::Yellow)
             .add_modifier(Modifier::BOLD);
         let title_border_style = Style::default().fg(Color::White);
-        let title = Paragraph::new(Span::styled("CLI Calculator", title_style))
+        let title = Paragraph::new(Span::styled("XCalc - A simple calculator for your terminal", title_style))
             .block(Block::default().borders(Borders::ALL).border_style(title_border_style));
 
         let cursor_position = input.len();
