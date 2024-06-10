@@ -1,0 +1,10 @@
+[package]
+name = "calculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.23"
+tui = "0.19"
+meval = "0.2"
+
