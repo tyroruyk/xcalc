@@ -51,7 +51,8 @@ pub fn draw_ui<B: Backend>(
         let cursor_position = input.len();
         let mut input_with_cursor = input.to_string();
         if matches!(mode, Mode::Input) && show_cursor {
-            input_with_cursor.insert(cursor_position, '█');
+            // input_with_cursor.insert(cursor_position, '█');
+            input_with_cursor.insert(cursor_position, '|');
         }
 
         let input_style = Style::default().fg(Color::Green);
